@@ -991,6 +991,7 @@ input:focus {
     -webkit-apperance: none;
     appearance: none;
     position: absolute;
+    opacity: 0;
 }
 .checkbox-label {
     font-size: 18px;
