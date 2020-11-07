@@ -671,7 +671,6 @@ input:focus {
     text-decoration: none;
     max-width: 230px;
     max-height: 169px;
-    overflow: hidden;
     transition: .3s;
 }
 .hover-play {
@@ -706,6 +705,7 @@ input:focus {
 }
 .video-title {
     margin-top: 5px;
+    text-align: left;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -714,9 +714,9 @@ input:focus {
     color: #222222;
 }
 .video-description {
-    margin-top: 5px;
     display: inline-block;
-    text-overflow: ellipsis;
+    margin-top: 5px;
+    text-align: left;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
