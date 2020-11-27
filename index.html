@@ -14,6 +14,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
         rel="stylesheet">
@@ -25,36 +26,35 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="header-wrapper">
-                            <a href="index.html" class="header-logo__link">
+                            <a href="index.html" class="header-logo__link" data-aos="fade-right">
                                 <div class="header-logo">
                                     <img src="img/logo.svg" alt="Логотип сайта" class="header-logo">
                                 </div>
                             </a>
-                            <nav class="header-nav">
+                            <nav class="header-nav faded-menu">
                                 <ul class="header-menu">
-                                    <li class="header-menu__list">
+                                    <li class="header-menu__list" data-aos="fade-left" data-aos-delay="100">
                                         <a class="header-nav__a" href="index.html">Главная</a>
                                     </li>
-                                    <li class="header-menu__list">
+                                    <li class="header-menu__list" data-aos="fade-left" data-aos-delay="200">
                                         <a class="header-nav__a" href="articles.html">Статьи</a>
                                     </li>
-                                    <li class="header-menu__list">
+                                    <li class="header-menu__list" data-aos="fade-left" data-aos-delay="300">
                                         <a class="header-nav__a" href="medialibrary.html">Медиатека</a>
                                     </li>
-                                    <li class="header-menu__list">
+                                    <li class="header-menu__list" data-aos="fade-left" data-aos-delay="400">
                                         <a class="header-nav__a" href="courses.html">Курсы</a>
                                     </li>
-                                    <li class="header-menu__list">
+                                    <li class="header-menu__list" data-aos="fade-left" data-aos-delay="500">
                                         <a class="header-nav__a" href="contacts.html">Контакты</a>
                                     </li>
                                 </ul>
                             </nav>
-                            <div class="menu-button"></div>
+                            <div class="menu-button" data-aos="fade-left"></div>
                         </div>
                     </div>
                 </div>
             </div>
-          
       </header>
     
       <!-- /.header -->
@@ -113,11 +113,11 @@
 
     <section class="section-services">
         <div class="container">
-            <h1 class="section-services-title">Услуги</h1>
+            <h1 class="section-services-title" data-aos="fade-down" data-aos-delay="0">Услуги</h1>
             <div class="row">
-                <div class="col-md-6 col-sm-12 col-service">
+                <div class="col-md-6 col-sm-12 col-service" data-aos="fade-right" data-aos-delay="200">
                     <div class="service-card">
-                        <img src="https://i.postimg.cc/d1RCsJ6b/service-1.jpg" alt="" class="img-service">
+                        <img src="https://i.postimg.cc/d1RCsJ6b/service-1.jpg" alt="Картинка услуги Индивидуальные и группщвые занятия" class="img-service">
                         <h2 class="service-title">Индивидуальные/групповые занятия</h2>
                         <div class="info-text_block">
                             <img src="https://i.postimg.cc/26xqp28m/foot.png" alt="лапка" class="img-info">
@@ -136,9 +136,9 @@
                         <button class="details popup_open_feedback clickable" onclick="">Оставить заявку</button>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-service">
+                <div class="col-md-6 col-sm-12 col-service" data-aos="fade-left" data-aos-delay="200">
                     <div class="service-card">
-                        <img src="https://i.postimg.cc/Bvps4yDh/service-2.png" alt="" class="img-service">
+                        <img src="https://i.postimg.cc/Bvps4yDh/service-2.png" alt="картинка услуги Online консультация" class="img-service">
                         <h2 class="service-title">Online консультация</h2>
                         <div class="info-text_block">
                             <img src="https://i.postimg.cc/26xqp28m/foot.png" alt="лапка" class="img-info">
@@ -157,7 +157,6 @@
                         <button class="details popup_open_feedback clickable" onclick="">Оставить заявку</button>
                     </div>
                 </div>
-                <!-- Временно недоступная функция -->
                 <!-- <div class="col-md-6 col-sm-12 col-service">
                     <div class="service-card">
                         <img src="https://i.postimg.cc/gk321gM7/service-3.jpg" alt="" class="img-service">
@@ -187,10 +186,10 @@
       <footer class="footer">
           <div class="container">
               <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="100">
                         <p class="info">Копирование материалов разрешено только с указанием активной ссылки на «SvetlanaMartynova.ru»</p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="200">
                         <div class="social-icon__container">
                             <a href="https://vk.com/smartynova2019" target="_blank" class="social-link">
                                 <svg width="24" height="23" class="social-icon">
@@ -209,10 +208,10 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="300">
                         <p class="info-legal"><span class="bold">&COPY; 2020 «Светлана Мартынова»</span>. Все права защищены.</p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="400">
                         <div class="policy">
                             <a href="confid/Politika-konfidentsialnosti-martynova.sm.docx" class="privacy-policy">Политика конфиденциальности</a>
                             <a href="confid/Soglashenie-ob-ispolzovanii-materialov-i-servisov-hvost.news.pdf" class="privacy-policy">Соглашение об использовании материалов и сервисов</a>
@@ -227,7 +226,7 @@
     
     <div class="row">
         <div class="col-12">
-            <div class="popup_calculator" data-modal>
+            <div class="popup_calculator faded" data-modal>
                 <div class="popup_container_calck">
                     <header class="header-calck">
                         <a href="##" class="calck__close">
@@ -339,7 +338,7 @@
     <!-- popup feedback-window -->
     <div class="row">
         <div class="col-12">
-            <div class="popup_feedback" data-modal>
+            <div class="popup_feedback faded" data-modal>
                 <div class="popup_feedback-container">
                     <header class="header-feedback">
                         <a href="##" class="feedback__close">
@@ -378,6 +377,8 @@
     <script src="js/modals.js"></script>
     <script src="js/calc.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/aos-init.js"></script>
     <script src="js/main.js"></script>
     <script src="js/hide-menu.js"></script>
   </body>
