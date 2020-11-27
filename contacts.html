@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
         rel="stylesheet">
@@ -21,40 +22,39 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-wrapper">
-                        <a href="index.html" class="header-logo__link">
+                        <a href="index.html" class="header-logo__link" data-aos="fade-right">
                             <div class="header-logo">
                                 <img src="img/logo.svg" alt="Логотип сайта" class="header-logo">
                             </div>
                         </a>
-                        <nav class="header-nav">
+                        <nav class="header-nav faded-menu">
                             <ul class="header-menu">
-                                <li class="header-menu__list">
+                                <li class="header-menu__list" data-aos="fade-left" data-aos-delay="100">
                                     <a class="header-nav__a" href="index.html">Главная</a>
                                 </li>
-                                <li class="header-menu__list">
+                                <li class="header-menu__list" data-aos="fade-left" data-aos-delay="200">
                                     <a class="header-nav__a" href="articles.html">Статьи</a>
                                 </li>
-                                <li class="header-menu__list">
+                                <li class="header-menu__list" data-aos="fade-left" data-aos-delay="300">
                                     <a class="header-nav__a" href="medialibrary.html">Медиатека</a>
                                 </li>
-                                <li class="header-menu__list">
+                                <li class="header-menu__list" data-aos="fade-left" data-aos-delay="400">
                                     <a class="header-nav__a" href="courses.html">Курсы</a>
                                 </li>
-                                <li class="header-menu__list">
+                                <li class="header-menu__list" data-aos="fade-left" data-aos-delay="500">
                                     <a class="header-nav__a" href="contacts.html">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
-                        <div class="menu-button"></div>
+                        <div class="menu-button" data-aos="fade-left"></div>
                     </div>
                 </div>
             </div>
         </div>
-    
     </header>
     <!-- /.header -->
 
-    <section class="contacts">
+    <section class="contacts" data-aos="fade-right" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="feedback-form">
+    <section class="feedback-form" data-aos="fade-left" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -106,45 +106,53 @@
     </section>
 
     <footer class="footer">
-          <div class="container">
-              <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <p class="info">Копирование материалов разрешено только с указанием активной ссылки на «SvetlanaMartynova.ru»</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="100">
+                    <p class="info">Копирование материалов разрешено только с указанием активной ссылки на
+                        «SvetlanaMartynova.ru»</p>
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="200">
+                    <div class="social-icon__container">
+                        <a href="https://vk.com/smartynova2019" target="_blank" class="social-link">
+                            <svg width="24" height="23" class="social-icon">
+                                <use xlink:href="img/icon/icons.svg#vk"></use>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/martynova_sm?igshid=109q2q43oote8" target="_blank"
+                            class="social-link">
+                            <svg width="25" height="25" class="social-icon">
+                                <use xlink:href="img/icon/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100003368576703" target="_blank"
+                            class="social-link">
+                            <svg width="25" height="25" class="social-icon">
+                                <use xlink:href="img/icon/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="social-icon__container">
-                            <a href="https://vk.com/smartynova2019" target="_blank" class="social-link">
-                                <svg width="24" height="23" class="social-icon">
-                                    <use xlink:href="img/icon/icons.svg#vk"></use>
-                                </svg>
-                            </a>
-                            <a href="https://instagram.com/martynova_sm?igshid=109q2q43oote8" target="_blank" class="social-link">
-                                <svg width="25" height="25" class="social-icon">
-                                    <use xlink:href="img/icon/icons.svg#instagram"></use>
-                                </svg>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100003368576703" target="_blank" class="social-link">
-                                <svg width="25" height="25" class="social-icon">
-                                    <use xlink:href="img/icon/icons.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </div>
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="300">
+                    <p class="info-legal"><span class="bold">&COPY; 2020 «Светлана Мартынова»</span>. Все права защищены.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="400">
+                    <div class="policy">
+                        <a href="confid/Politika-konfidentsialnosti-martynova.sm.docx" class="privacy-policy">Политика
+                            конфиденциальности</a>
+                        <a href="confid/Soglashenie-ob-ispolzovanii-materialov-i-servisov-hvost.news.pdf"
+                            class="privacy-policy">Соглашение об использовании материалов и сервисов</a>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <p class="info-legal"><span class="bold">&COPY; 2020 «Светлана Мартынова»</span>. Все права защищены.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="policy">
-                            <a href="confid/Politika-konfidentsialnosti-martynova.sm.docx" class="privacy-policy">Политика конфиденциальности</a>
-                            <a href="confid/Soglashenie-ob-ispolzovanii-materialov-i-servisov-hvost.news.pdf" class="privacy-policy">Соглашение об использовании материалов и сервисов</a>
-                        </div>
-                    </div>
-              </div>
-          </div>
-      </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Подключаем наш файл JavaScript -->
     <script src="js/hide-menu.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/aos-init.js"></script>
 </body>
 
 </html>
